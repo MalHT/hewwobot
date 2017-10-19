@@ -1,0 +1,16 @@
+{
+  "name": "nya-enforcement-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "node-localstorage": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maren",
+  "license": "ISC"
+}
