@@ -34,7 +34,7 @@ let owoify = function (v) {
   v = v.replace(/(?:R|L)/g, "W");
   v = v.replace(/n([aeiou])/g, 'ny$1');
   v = v.replace(/N([aeiou])/g, 'Ny$1');
-  v = v.replace(/N([AEIOU])/g, 'Ny$1');
+  v = v.replace(/N([AEIOU])/g, 'NY$1');
   v = v.replace(/ove/g, "uv");
   v = v.replace(/\!+/g, " "+ faces[Math.floor(Math.random()*faces.length)]+ " ");
 
